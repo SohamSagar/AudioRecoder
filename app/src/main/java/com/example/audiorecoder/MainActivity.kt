@@ -54,6 +54,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun playAudio(){
+        //play audio
+    }
+
     private fun checkStoragePermissions(): Boolean {
             val write = ContextCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
             val read = ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE)
